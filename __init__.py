@@ -1,9 +1,7 @@
 """
-Package initialization for models.
+Package initialization for service.
 """
 
-from .book import Book
-from .member import Member
-from .loan import Loan
+from .library_service import LibraryService
 
-__all__ = ['Book', 'Member', 'Loan']
+__all__ = ['LibraryService']
